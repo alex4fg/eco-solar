@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoSolar - Energía Renovable</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow-md fixed top-0 w-full z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-green-600">EcoSolar</h1>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#inicio" class="hover:text-green-600">Inicio</a>
+        <a href="#nosotros" class="hover:text-green-600">Sobre Nosotros</a>
+        <a href="#servicios" class="hover:text-green-600">Servicios</a>
+        <a href="#proyectos" class="hover:text-green-600">Proyectos</a>
+        <a href="#contacto" class="hover:text-green-600">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="pt-24 bg-green-600 text-white">
+    <div class="max-w-7xl mx-auto text-center py-20 px-6">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4 animate-fade-in">
+        Energía Solar para un Futuro Sostenible
+      </h2>
+      <p class="text-lg mb-6 animate-fade-in">
+        Ayudamos a empresas y hogares a transformar la luz del sol en energía limpia.
+      </p>
+      <a href="#contacto"
+         class="bg-white text-green-600 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-gray-100 transition">
+        Contáctanos
+      </a>
+    </div>
+  </section>
+
+  <!-- Sobre nosotros -->
+  <section id="nosotros" class="max-w-7xl mx-auto py-16 px-6">
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <img src="https://source.unsplash.com/600x400/?solar,energy" alt="Paneles solares" class="rounded-2xl shadow-lg">
+      <div>
+        <h3 class="text-3xl font-bold text-green-600 mb-4">Sobre Nosotros</h3>
+        <p class="text-gray-600 leading-relaxed">
+          En <strong>EcoSolar</strong>, nos apasiona llevar soluciones energéticas sostenibles
+          a empresas y hogares. Nuestro objetivo es acelerar la transición hacia un futuro limpio,
+          aprovechando el poder del sol para generar energía renovable.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="bg-gray-100 py-16">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold text-green-600 mb-10">Nuestros Servicios</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition">
+          <img src="https://source.unsplash.com/400x300/?solar" alt="Energía Solar" class="rounded-lg mb-4">
+          <h4 class="text-xl font-semibold mb-2">Instalación de Paneles Solares</h4>
+          <p class="text-gray-600">Soluciones personalizadas para hogares y empresas.</p>
+        </div>
+        <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition">
+          <img src="https://source.unsplash.com/400x300/?renewable-energy" alt="Consultoría" class="rounded-lg mb-4">
+          <h4 class="text-xl font-semibold mb-2">Consultoría Energética</h4>
+          <p class="text-gray-600">Te ayudamos a optimizar tu consumo energético.</p>
+        </div>
+        <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition">
+          <img src="https://source.unsplash.com/400x300/?green-energy" alt="Mantenimiento" class="rounded-lg mb-4">
+          <h4 class="text-xl font-semibold mb-2">Mantenimiento de Sistemas</h4>
+          <p class="text-gray-600">Revisamos y optimizamos tu instalación solar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="max-w-7xl mx-auto py-16 px-6 text-center">
+    <h3 class="text-3xl font-bold text-green-600 mb-10">Proyectos Realizados</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <img src="https://source.unsplash.com/400x300/?solar,house" class="rounded-lg shadow-md" alt="Proyecto 1">
+      <img src="https://source.unsplash.com/400x300/?solar,farm" class="rounded-lg shadow-md" alt="Proyecto 2">
+      <img src="https://source.unsplash.com/400x300/?solar,company" class="rounded-lg shadow-md" alt="Proyecto 3">
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="bg-green-600 text-white py-16">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-6">Contáctanos</h3>
+      <form class="bg-white rounded-xl shadow-lg p-6 space-y-4">
+        <input type="text" placeholder="Tu nombre" class="w-full p-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-green-500 text-gray-800" required>
+        <input type="email" placeholder="Tu correo" class="w-full p-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-green-500 text-gray-800" required>
+        <textarea placeholder="Tu mensaje" rows="4" class="w-full p-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-green-500 text-gray-800" required></textarea>
+        <button type="submit" class="bg-green-600 w-full p-3 rounded-lg text-white font-semibold hover:bg-green-700 transition">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-6 text-center">
+    <p>© 2025 EcoSolar. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
